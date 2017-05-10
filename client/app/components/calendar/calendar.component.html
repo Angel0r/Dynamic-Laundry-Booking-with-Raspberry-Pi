@@ -1,0 +1,17 @@
+
+<div class="container">
+  <div id="calendar_view"></div>
+</div>
+
+<div class="container">
+  <div id ="requestForm">
+    <hr/>
+    <div class="well">
+      <input type="text" [(ngModel)]="date" class ="form-control" placeholder="Date"><br />
+      <input type="text" [(ngModel)]="start" class ="form-control" placeholder="Start Time"><br />
+      <input type="text" [(ngModel)]="end" class ="form-control" placeholder="End Time"><br />
+      <input type="text" [(ngModel)]="title" class ="form-control" placeholder="Appartment Number"><br />
+      <input type="button"  (click)='registerEvent(title,start,end,date)' class="btn btn-info" value="Submit">
+    </div>
+  </div>
+</div>

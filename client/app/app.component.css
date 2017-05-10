@@ -1,0 +1,26 @@
+.info{
+  float: left;
+  width: 25%;
+  background-color: #f4f4f4;
+}
+
+.info h2, h3{
+  font-size: auto;
+}
+.main{
+  float: right;
+  width: 75%;
+}
+
+#legend{
+  margin-left: 0px;
+  color: #a6e3f5;
+}
+#legend:hover{
+  font-weight: bold;
+  text-decoration: none;
+}
+#navbar-main{
+  margin-top: 20px;
+  margin-left: 10px;
+}
